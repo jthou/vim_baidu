@@ -9,8 +9,10 @@
 * 将本项目中的两个文件添加到vim的plugin目录
 * 在.vimrc中加入
 
-> " Baidu Fanyi
-> let g:baidu_appid='yourid'
-> let g:baidu_secretKey='yourkey'
-> vnoremap <silent> <C-B> :<C-u>Bdv<CR>
-> nnoremap <silent> <C-B> :<C-u>Bdc<CR>
+~~~~
+" Baidu Fanyi
+let g:baidu_appid='yourid'
+let g:baidu_secretKey='yourkey'
+vnoremap <silent> <C-B> :<C-u>Bdv<CR>
+nnoremap <silent> <C-B> :<C-u>Bdc<CR>
+~~~~
